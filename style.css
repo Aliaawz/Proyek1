@@ -285,7 +285,6 @@ section {
  color: var(--main-color);
  border: 5px solid var(--main-color);
  transform: scale(1.03);
- transition: 0.4s ease-in-out;
 }
 
 .service-info {
