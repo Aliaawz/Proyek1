@@ -462,3 +462,47 @@ section {
     display: none;
   }
 }
+
+.tools {
+  padding: 100px 10%;
+  text-align: center;
+  background: #0f0f0f;
+}
+
+.heading {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  color: #fff;
+}
+
+.tools-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.tool-box {
+  width: 120px;
+  padding: 20px;
+  background: #1a1a1a;
+  border-radius: 12px;
+  transition: .3s;
+  cursor: pointer;
+}
+
+.tool-box:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 0 15px #ffd27d;
+}
+
+.tool-box i {
+  font-size: 50px;
+  margin-bottom: 10px;
+  color: #ffd27d;
+}
+
+.tool-box p {
+  font-size: 1rem;
+  color: #fff;
+}
